@@ -1,4 +1,4 @@
-package model;
+package tdm;
 
 import lombok.*;
 
@@ -10,10 +10,8 @@ import lombok.*;
 public class Student {
     private String id;
     private String name;
-    private String email;
+    private String mail;
     private String contact;
     private String address;
     private String nic;
-
-
 }
